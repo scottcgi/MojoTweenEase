@@ -1,12 +1,12 @@
 ## MojoTweenEase v1.0
 
-MojoTweenEase is a collection of standard and custom tween ease functions. The implementation uses formula expansion for optimization.
+MojoTweenEase is a collection of **standard** and **custom** tween ease functions. The implementation uses **formula expansion** for optimization.
 
 The current implementations:
 
-* For C#
-* For C
-* For JS
+* [For C#](https://github.com/scottcgi/MojoTweenEase/blob/master/TweenEase.cs)
+* [For C](https://github.com/scottcgi/MojoTweenEase/blob/master/TweenEase.c)
+* [For JS](https://github.com/scottcgi/MojoTweenEase/blob/master/TweenEase.js)
 
 Support standard easing functions:
 
@@ -35,5 +35,5 @@ backInExponentialOut, backInElasticOut
 MojoTweenEase is licensed under the [MIT License](https://github.com/scottcgi/MojoTweenEase/blob/master/LICENSE).
 
 * The original algorithms of easing functions come from [Robert Penner](http://robertpenner.com/easing). 
-* The [open source](http://robertpenner.com/easing_terms_of_use.html) licensed under the MIT License and the BSD License.
+* The [open source](http://robertpenner.com/easing_terms_of_use.html) licensed under the **MIT License** and the **BSD License**.
 
