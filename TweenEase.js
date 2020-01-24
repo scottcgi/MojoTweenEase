@@ -120,13 +120,13 @@ var tweenEase = {
 
 
     sineIn: function(time) {
-        return 1.0 - Math.cos(time * 1.570796);
+        return 1.0 - Math.cos(time * 1.570796326794897);
     },
     sineOut: function(time) {
-        return Math.sin(time * 1.570796);
+        return Math.sin(time * 1.570796326794897);
     },
     sineInOut: function(time) {
-        return 0.5 * (1.0 - Math.cos(time * 3.141593));
+        return 0.5 * (1.0 - Math.cos(time * 3.141592653589793));
     }, 
 
 
