@@ -15,6 +15,7 @@
  * GitHub : https://github.com/scottcgi/MojoTweenEase
  *
  * Since  : 2019-12-23
+ * Update : 2020-2-2
  * Author : scott.cgi
  * Version: 1.0.1
  */
