@@ -16,7 +16,7 @@
  *
  * Since  : 2019-12-23
  * Author : scott.cgi
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 var tweenEase = {
@@ -201,6 +201,10 @@ var tweenEase = {
         if (time < 0.5) {
             return time * time * (14.379636 * time - 5.189818);
         } 
+
+        if (time >= 1.0) {
+            return time;
+        }
 
         return Math.pow(2.0, -20.0 * time + 10.0) * Math.sin(27.960175 * time - 15.550884) * 0.5 + 1.0;
     },

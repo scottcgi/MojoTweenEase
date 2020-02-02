@@ -16,7 +16,7 @@
  *
  * Since  : 2019-12-23
  * Author : scott.cgi
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 using System;
@@ -313,6 +313,11 @@ public static class TweenEase
         if (time < 0.5f)
         {
             return time * time * (14.379638f * time - 5.189819f);
+        }
+
+        if (time >= 1.0f)
+        {
+            return time;
         }
 
         return Mathf.Pow(2.0f, -20.0f * time + 10.0f) * Mathf.Sin(27.960175f * time - 15.550884f) * 0.5f + 1.0f;

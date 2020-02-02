@@ -1,4 +1,4 @@
-## MojoTweenEase v1.0
+## MojoTweenEase v1.0.1
 
 MojoTweenEase is a collection of **standard** and **custom** tween ease functions. The implementation uses **formula expansion** for optimization.
 
